@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+
+<testsuite timestamp="2020-03-18T07:57:38.394Z" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="uitest.tests.CreateEveryDayAccount(NewEndpoint)" time="23.71" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+          <property name="endpointName" value="New Endpoint" />
+          <property name="endpointHeadless" value="false" />
+          <property name="endpointType" value="local" />
+          <property name="endpointBrowserName" value="chrome" />
+          <property name="projectName" value="OpenABankAccount" />
+          <property name="screenshot" value="onFail" />
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="webdriver.chrome.driver" value="C:/Users/admki/AppData/Local/Programs/webtestit/vendor/drivers/chromedriver/80.0.3987.106-x64-chromedriver"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\QA\openabankaccount\target\test-classes;D:\QA\openabankaccount\target\classes;C:\Users\admki\.m2\repository\org\testng\testng\6.14.2\testng-6.14.2.jar;C:\Users\admki\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\admki\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\admki\.m2\repository\ru\stqa\selenium\webdriver-factory\4.3\webdriver-factory-4.3.jar;C:\Users\admki\.m2\repository\org\hamcrest\java-hamcrest\2.0.0.0\java-hamcrest-2.0.0.0.jar;C:\Users\admki\.m2\repository\org\seleniumhq\selenium\selenium-java\3.11.0\selenium-java-3.11.0.jar;C:\Users\admki\.m2\repository\org\seleniumhq\selenium\selenium-api\3.11.0\selenium-api-3.11.0.jar;C:\Users\admki\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.11.0\selenium-chrome-driver-3.11.0.jar;C:\Users\admki\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.11.0\selenium-edge-driver-3.11.0.jar;C:\Users\admki\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.11.0\selenium-firefox-driver-3.11.0.jar;C:\Users\admki\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.11.0\selenium-ie-driver-3.11.0.jar;C:\Users\admki\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.11.0\selenium-opera-driver-3.11.0.jar;C:\Users\admki\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.11.0\selenium-remote-driver-3.11.0.jar;C:\Users\admki\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.11.0\selenium-safari-driver-3.11.0.jar;C:\Users\admki\.m2\repository\org\seleniumhq\selenium\selenium-support\3.11.0\selenium-support-3.11.0.jar;C:\Users\admki\.m2\repository\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;C:\Users\admki\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\admki\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\admki\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\admki\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\admki\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\admki\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\admki\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\admki\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\admki\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\admki\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\admki\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\admki\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\admki\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\admki\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\admki\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\admki\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\admki\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
+    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="application.properties" value="/application.properties"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
+    <property name="user.timezone" value=""/>
+    <property name="report.name.suffix" value="36b811f2-2e04-8bbd-6389-26740341fbc4"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.5.10-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\admki\AppData\Local\Temp\surefire7567788729969364757\surefirebooter18283207880962301082.jar C:\Users\admki\AppData\Local\Temp\surefire7567788729969364757 2020-03-18T13-27-44_154-jvmRun1 surefire718756369433965768tmp surefire_04578490003187522830tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="uitest.tests.CreateEveryDayAccount"/>
+    <property name="surefire.test.class.path" value="D:\QA\openabankaccount\target\test-classes;D:\QA\openabankaccount\target\classes;C:\Users\admki\.m2\repository\org\testng\testng\6.14.2\testng-6.14.2.jar;C:\Users\admki\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\admki\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\admki\.m2\repository\ru\stqa\selenium\webdriver-factory\4.3\webdriver-factory-4.3.jar;C:\Users\admki\.m2\repository\org\hamcrest\java-hamcrest\2.0.0.0\java-hamcrest-2.0.0.0.jar;C:\Users\admki\.m2\repository\org\seleniumhq\selenium\selenium-java\3.11.0\selenium-java-3.11.0.jar;C:\Users\admki\.m2\repository\org\seleniumhq\selenium\selenium-api\3.11.0\selenium-api-3.11.0.jar;C:\Users\admki\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.11.0\selenium-chrome-driver-3.11.0.jar;C:\Users\admki\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.11.0\selenium-edge-driver-3.11.0.jar;C:\Users\admki\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.11.0\selenium-firefox-driver-3.11.0.jar;C:\Users\admki\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.11.0\selenium-ie-driver-3.11.0.jar;C:\Users\admki\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.11.0\selenium-opera-driver-3.11.0.jar;C:\Users\admki\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.11.0\selenium-remote-driver-3.11.0.jar;C:\Users\admki\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.11.0\selenium-safari-driver-3.11.0.jar;C:\Users\admki\.m2\repository\org\seleniumhq\selenium\selenium-support\3.11.0\selenium-support-3.11.0.jar;C:\Users\admki\.m2\repository\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;C:\Users\admki\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\admki\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\admki\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\admki\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\admki\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\admki\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\admki\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\admki\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\admki\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\admki\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\admki\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\admki\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\admki\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\admki\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\admki\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\admki\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\admki\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\admki"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="screenshotOnFailure" value="true"/>
+    <property name="java.version.date" value="2019-10-15"/>
+    <property name="java.home" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.5.10-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\QA\openabankaccount"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\admki\AppData\Local\Temp\surefire7567788729969364757\surefirebooter18283207880962301082.jar"/>
+    <property name="user.script" value=""/>
+    <property name="remotecapabilities" value="{}"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.5+10"/>
+    <property name="user.name" value="admin"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.1"/>
+    <property name="timestampStarted" value="2020-03-18-13-27-38"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="endpointBrowserName" value="chrome"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="AdoptOpenJDK"/>
+    <property name="localRepository" value="C:\Users\admki\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-build/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\admki\AppData\Local\Temp\"/>
+    <property name="debug" value="false"/>
+    <property name="java.version" value="11.0.5"/>
+    <property name="user.dir" value="D:\QA\openabankaccount"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="headless" value="false"/>
+    <property name="java.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.5.10-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python27\;C:\Python27\Scripts;C:\Program Files\AdoptOpenJDK\jdk-11.0.5.10-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Git\cmd;;C:\Program Files\Microsoft VS Code\bin;C:\Users\admki\AppData\Roaming\npm;."/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.5+10"/>
+    <property name="selocityPath" value="C:\Users\admki\AppData\Local\Google\Chrome\User Data\Default\Extensions\ocgghcnnjekfpbmafindjmijdpopafoe\1.4.2_0"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="CreateAnEveryDayAccountForNewCustomer" classname="uitest.tests.CreateEveryDayAccount(NewEndpoint)" time="19.472">
+    <failure message="element click intercepted: Element &lt;input type=&quot;radio&quot; class=&quot;style-scope ing-radio-button-group&quot; value=&quot;Single&quot; aria-label=&quot;Single&quot; index=&quot;0&quot; id=&quot;singleOrJointButtons-0&quot; group=&quot;singleOrJointButtons&quot; name=&quot;singleOrJointButtons&quot;&gt; is not clickable at point (246, 554). Other element would receive the click: &lt;p class=&quot;style-scope ing-join-apply-about-you-account&quot;&gt;...&lt;/p&gt;&#10;  (Session info: chrome=80.0.3987.122)&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;ADMKI-PC&apos;, ip: &apos;192.168.0.8&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;11.0.5&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\admki\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64144}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 214c48f25cbc3a865a1f84b4d336c1ca" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <input type="radio" class="style-scope ing-radio-button-group" value="Single" aria-label="Single" index="0" id="singleOrJointButtons-0" group="singleOrJointButtons" name="singleOrJointButtons"> is not clickable at point (246, 554). Other element would receive the click: <p class="style-scope ing-join-apply-about-you-account">...</p>
+  (Session info: chrome=80.0.3987.122)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'ADMKI-PC', ip: '192.168.0.8', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\admki\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64144}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 214c48f25cbc3a865a1f84b4d336c1ca
+	at uitest.tests.CreateEveryDayAccount.CreateAnEveryDayAccountForNewCustomer(CreateEveryDayAccount.java:26)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 12721
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Mar 18, 2020 1:27:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1584518270.579][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584518270.679][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584518270.781][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584518270.882][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584518270.984][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584518271.085][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584518271.186][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584518271.287][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584518271.388][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584518271.490][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584518271.592][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584518271.693][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584518271.794][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584518271.895][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584518271.996][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584518272.097][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584518272.212][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584518272.334][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584518273.047][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584518273.228][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584518273.434][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584518273.558][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584518273.662][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584518275.341][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584518275.442][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584518275.593][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584518276.048][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584518277.859][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584518277.962][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584518278.067][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584518278.170][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+</testsuite>
+</testsuites>
