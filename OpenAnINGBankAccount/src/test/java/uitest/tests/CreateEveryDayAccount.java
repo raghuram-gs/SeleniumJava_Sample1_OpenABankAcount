@@ -10,8 +10,7 @@ import org.testng.annotations.Test;
 
 class CreateEveryDayAccount extends TestNgTestBase {
     @Test
-    public void Test_EnteringDetailsForNewEveryDayAccountOfNewCustomer_AbleToEnterCustomerDetailsAndProceedButtonIsShown()
-            throws InterruptedException {
+    public void Test_EnteringDetailsForNewEveryDayAccountOfNewCustomer_AbleToEnterCustomerDetailsAndProceedButtonIsShown(){
         // 1. Arrange
         WebDriver driver = getDriver();
         driver.manage().window().maximize();
