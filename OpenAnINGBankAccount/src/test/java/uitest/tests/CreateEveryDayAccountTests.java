@@ -8,7 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-class CreateEveryDayAccount extends TestNgTestBase {
+class CreateEveryDayAccountTests extends TestNgTestBase {
     @Test
     public void Test_EnteringDetailsForNewEveryDayAccountOfNewCustomer_AbleToEnterCustomerDetailsAndProceedButtonIsShown(){
         // 1. Arrange
