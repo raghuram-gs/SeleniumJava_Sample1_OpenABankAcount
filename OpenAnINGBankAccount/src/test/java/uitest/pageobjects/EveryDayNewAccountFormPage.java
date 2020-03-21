@@ -84,80 +84,98 @@ public class EveryDayNewAccountFormPage {
         this.wait = new WebDriverWait(driver, 10);
     }
 
-    public void selectSingle() {
+    public EveryDayNewAccountFormPage selectSingle() {
         this.wait.until(ExpectedConditions.visibilityOfElementLocated(this.single)).click();
+        return this;
     }
 
-    public void enterFirstName(String text) {
+    public EveryDayNewAccountFormPage enterFirstName(String text) {
         this.wait.until(ExpectedConditions.visibilityOfElementLocated(this.firstName)).sendKeys(text);
+        return this;
     }
 
-    public void selectMale() {
+    public EveryDayNewAccountFormPage selectMale() {
         this.wait.until(ExpectedConditions.visibilityOfElementLocated(this.male)).click();
+        return this;
     }
 
-    public void clickYesForTaxPayerResidense() {
+    public EveryDayNewAccountFormPage clickYesForTaxPayerResidense() {
         this.wait.until(ExpectedConditions.visibilityOfElementLocated(this.yes)).click();
+        return this;
     }
 
-    public void enterMiddleName(String text) {
+    public EveryDayNewAccountFormPage enterMiddleName(String text) {
         this.wait.until(ExpectedConditions.visibilityOfElementLocated(this.middleName)).sendKeys(text);
+        return this;
     }
 
-    public void enterNationility(String text) {
+    public EveryDayNewAccountFormPage enterNationility(String text) {
         this.wait.until(ExpectedConditions.visibilityOfElementLocated(this.nationality)).sendKeys(text);
         this.wait.until(ExpectedConditions.visibilityOfElementLocated(this.firstOfNationality)).click();
+        return this;
     }
 
-    public void selectMrAsTitle() {
+    public EveryDayNewAccountFormPage selectMrAsTitle() {
         this.wait.until(ExpectedConditions.visibilityOfElementLocated(this.title)).click();
         this.wait.until(ExpectedConditions.visibilityOfElementLocated(this.mr)).click();
+        return this;
     }
 
-    public void enterFamilyName(String text) {
+    public EveryDayNewAccountFormPage enterFamilyName(String text) {
         this.wait.until(ExpectedConditions.visibilityOfElementLocated(this.familyName)).sendKeys(text);
+        return this;
     }
 
-    public void enterDob(String text) {
+    public EveryDayNewAccountFormPage enterDob(String text) {
         this.wait.until(ExpectedConditions.visibilityOfElementLocated(this.dateOfBirth)).sendKeys(text);
+        return this;
     }
 
-    public void enterPlaceOfBirth(String text) {
+    public EveryDayNewAccountFormPage enterPlaceOfBirth(String text) {
         this.wait.until(ExpectedConditions.visibilityOfElementLocated(this.placeOfBirth)).sendKeys(text);
+        return this;
     }
 
-    public void enterCountryOfBirth(String text) {
+    public EveryDayNewAccountFormPage enterCountryOfBirth(String text) {
         this.wait.until(ExpectedConditions.visibilityOfElementLocated(this.countryOfBirth)).sendKeys(text);
         this.wait.until(ExpectedConditions.visibilityOfElementLocated(this.countryOfBirthFirstElement)).click();
+        return this;
     }
 
-    public void enterEmail(String text) {
+    public EveryDayNewAccountFormPage enterEmail(String text) {
         this.wait.until(ExpectedConditions.visibilityOfElementLocated(this.emailAddress)).sendKeys(text);
+        return this;
     }
 
-    public void enterMobile(String text) {
+    public EveryDayNewAccountFormPage enterMobile(String text) {
         this.wait.until(ExpectedConditions.visibilityOfElementLocated(this.mobile)).sendKeys(text);
+        return this;
     }
 
-    public void enterAddress(String text) {
+    public EveryDayNewAccountFormPage enterAddress(String text) {
         this.wait.until(ExpectedConditions.visibilityOfElementLocated(this.address)).sendKeys(text);
         this.wait.until(ExpectedConditions.visibilityOfElementLocated(this.firstAddressItem)).click();
+        return this;
     }
 
-    public void clickSameAsResidential() {
+    public EveryDayNewAccountFormPage clickSameAsResidential() {
         this.wait.until(ExpectedConditions.visibilityOfElementLocated(this.sameAsResidential)).click();
+        return this;
     }
 
-    public void clickThreeOrMoreYears() {
+    public EveryDayNewAccountFormPage clickThreeOrMoreYears() {
         this.wait.until(ExpectedConditions.visibilityOfElementLocated(this.threeOrMoreYears)).click();
+        return this;
     }
 
-    public void typeIntoSecurityQuestion(String text) {
+    public EveryDayNewAccountFormPage typeIntoSecurityQuestion(String text) {
         this.wait.until(ExpectedConditions.visibilityOfElementLocated(this.securityQuestion)).sendKeys(text);
+        return this;
     }
 
-    public void clickContinueButton() {
+    public EveryDayNewAccountFormPage clickContinueButton() {
         this.wait.until(ExpectedConditions.visibilityOfElementLocated(this.continueButton)).click();
+        return this;
     }
 
     public Boolean isProceedButtonPresent() {
