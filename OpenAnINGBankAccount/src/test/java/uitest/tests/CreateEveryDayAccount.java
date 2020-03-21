@@ -23,28 +23,14 @@ class CreateEveryDayAccount extends TestNgTestBase {
         CustomerTypeSelectionPopUp popUp = orangeEveryDayPage.clickOpenNow();
         EveryDayNewAccountFormPage newAccountFormPage = popUp.clickNewCustomer();
 
-        newAccountFormPage.selectSingle();
-        newAccountFormPage.enterNationility("INDIA");
-        newAccountFormPage.selectMrAsTitle();
-        newAccountFormPage.enterFirstName("Raghu");
-        newAccountFormPage.enterMiddleName("ram");
-        newAccountFormPage.enterFamilyName("FamilyName");
-        newAccountFormPage.selectMale();
-        newAccountFormPage.enterDob("14/12/1984");
-        newAccountFormPage.enterPlaceOfBirth("Bangalore");
-        newAccountFormPage.enterCountryOfBirth("INDIA");
-        newAccountFormPage.enterEmail("abc@gmail.com");
-        newAccountFormPage.enterMobile("0418855338");
-        newAccountFormPage.enterAddress("Unit 401a");
-        newAccountFormPage.clickSameAsResidential();
-        newAccountFormPage.clickThreeOrMoreYears();
-        newAccountFormPage.clickYesForTaxPayerResidense();
-        newAccountFormPage.typeIntoSecurityQuestion("Maiden");
+        newAccountFormPage.selectSingle().enterNationility("INDIA").selectMrAsTitle().enterFirstName("Raghu")
+                .enterMiddleName("ram").enterFamilyName("FamilyName").selectMale().enterDob("14/12/1984")
+                .enterPlaceOfBirth("Bangalore").enterCountryOfBirth("INDIA").enterEmail("abc@gmail.com")
+                .enterMobile("0418855338").enterAddress("Unit 401a").clickSameAsResidential().clickThreeOrMoreYears()
+                .clickYesForTaxPayerResidense().typeIntoSecurityQuestion("Maiden");
 
         // 2. Act
         newAccountFormPage.clickContinueButton();
-
-        Thread.sleep(5000);
 
         // 3. Assert
         Assert.assertTrue(newAccountFormPage.isProceedButtonVisible());
