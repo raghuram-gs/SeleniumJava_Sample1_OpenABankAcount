@@ -1,1 +1,1 @@
-# SeleniumJava_Sample1_OpenINGBankAcount
+# SeleniumJava_Sample1
